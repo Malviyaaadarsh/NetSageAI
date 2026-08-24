@@ -1,0 +1,9 @@
+timestamp,case_id,concept_tag,severity,ai_root_cause,ai_confidence,reviewer_decision,reviewer_name,reviewer_fix,reviewer_reason,agreement_flag
+2026-08-24T08:52:00Z,NET-001,Inter-VLAN Routing,High,Draft AI diagnosis for NET-001,0.55,Edited,demo-seed,Sub-interface administratively down,Seeded correction entry for Responsible AI evidence.,False
+2026-08-24T08:52:00Z,NET-002,DHCP,High,Draft AI diagnosis for NET-002,0.55,Rejected,demo-seed,DHCP Scope Pool Exhaustion,Seeded correction entry for Responsible AI evidence.,False
+2026-08-24T08:52:00Z,NET-003,DNS,Medium,Draft AI diagnosis for NET-003,0.55,Edited,demo-seed,DNS service disabled on client subnet gateway,Seeded correction entry for Responsible AI evidence.,False
+2026-08-24T08:52:00Z,NET-004,OSPF,High,Draft AI diagnosis for NET-004,0.55,Rejected,demo-seed,OSPF Hello Timer Mismatch,Seeded correction entry for Responsible AI evidence.,False
+2026-08-24T08:52:00Z,NET-005,ACL,Medium,Draft AI diagnosis for NET-005,0.55,Edited,demo-seed,Extended ACL blocking HTTP traffic,Seeded correction entry for Responsible AI evidence.,False
+2026-08-24T08:52:59Z,NET-013,VLAN,Medium,Switch port FastEthernet0/10 is incorrectly assigned to VLAN 14 instead of VLAN 40.,0.95,Accepted,operator,"configure terminal
+interface FastEthernet0/10
+switchport access vlan 40",,True
